@@ -1,0 +1,12 @@
+{
+	"categories": [
+		{
+			"name": "Math",
+			"dir": "/collections/math/"
+		},
+		{
+			"name": "Computer Science",
+			"dir": "/collections/cs/"
+		}						
+	]
+}
