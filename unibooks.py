@@ -1,5 +1,6 @@
 import json
 
+
 def loadJSON():
     json_file = 'static/unibooks.json'
     json_dump = open(json_file)
@@ -9,10 +10,13 @@ def loadJSON():
 
 def getAttributes(unibooks, keys):
     for course in unibooks['categories']:
-        attribute = json.dumps(course[keys]])
+        attribute = json.dumps(course[keys])
     return attribute
 
 
+# json2 = loadJSON()
+
+# print(getAttributes(json, 'name'))
 '''
 for course in categories['categories']:
     categoryName = json.dumps(course['name'])

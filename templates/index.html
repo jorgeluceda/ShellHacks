@@ -1,6 +1,10 @@
-     {% include 'header.html' %}
-     <body>
-       <h1> Hello, cat! </h1>
-     </body>
-     {% include 'footer.html' %}
+{% include 'header.html' %}
+
+	<body>
+		{% for name in data.categories %}
+		<br> {{ name }} </br>
+		{% endfor %}
+	</body>
+
+{% include 'footer.html' %}
      

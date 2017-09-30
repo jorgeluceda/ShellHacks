@@ -4,9 +4,13 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
+nav_data = {
+    'categories' : ['Math', 'Computer Science', 'English']
+}
+
 @app.route('/')
 def homepage():
-    return render_template('index.html')
+    return render_template('index.html', data=nav_data)
 
 @app.route('/dashboard')
 def dashboard():
