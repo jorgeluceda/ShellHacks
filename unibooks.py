@@ -1,12 +1,23 @@
-Qimport json
-json_file = 'unibooks.json'
-unibooks = open(json_file)
-categories = json.load(unibooks)
-unibooks.close()
+import json
 
-#print "Courses:\n"
+def loadJSON():
+    json_file = 'static/unibooks.json'
+    json_dump = open(json_file)
+    topics = json.load(json_dump)
+    json_dump.close()
+    return topics
 
-#print()
+def getAttributes(unibooks, keys):
+    for course in unibooks['categories']:
+        attribute = json.dumps(course[keys]])
+    return attribute
+
+
+'''
 for course in categories['categories']:
-    jsonstring = json.dumps(course['name'])
-    print(jsonstring)
+    categoryName = json.dumps(course['name'])
+    categoryDir = json.dumps(course['dir'])
+    print(categoryName)
+    print(categoryDir)
+
+'''
