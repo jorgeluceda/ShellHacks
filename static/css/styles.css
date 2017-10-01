@@ -1,4 +1,8 @@
-.footer {
+body {
+	background-color: powderblue;
+}
+
+footer {
 	position: absolute;
 	right: 0;
 	bottom: 0;
