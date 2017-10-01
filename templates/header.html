@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>UNIBooks FIU</title>
+  <title>UNIBooks</title>
  
   <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
     
@@ -11,7 +11,21 @@
     <meta name="author" content="SitePoint">
 	</head>
 <body>
-	<ul class="top-menu">
-		
-	</ul>
-     
+
+      <ul class="top-menu">
+         <img class="logo" src="../static/logo.png">
+
+         <a target="" href="#"><li>Cart</li></a>
+
+
+      </ul>
+      <div class="navbar">
+        {% for index in range(dirs|length) %}
+          <p> <a href="{{dirs[index]}}"> {{ cats[index] }} </p>
+        {% endfor %} 
+      </div>
+      
+      <div class="menu-visible">
+         <ul class="site-nav" id="AccessibleNav">
+         </ul>
+      </div>

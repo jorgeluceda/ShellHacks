@@ -1,5 +1,91 @@
+
+.top-menu {
+   overflow: hidden;
+   background-color: #fc5bb4;
+   position: fixed;
+   margin-top: 0px;
+   top: 0;
+   right: 0;
+	width: 100%;
+	min-height: 80px;
+   overflow: hidden;
+}
+
+.top-menu li {
+   list-style-type: none;
+   text-decoration: none;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: center; 
+	
+}
+
+.top-menu a {
+	font-weight: bold;
+   float: right;
+   display: inline-block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 15px 20px;
+   text-decoration: none;
+	font-size: 17px;
+	text-transform: uppercase;
+	/* font-family: Helvetica; */
+
+}
+
+.top-menu a:hover {
+   color: darkturquoise;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border: 3px;
+	padding: 10px;
+	float: left;
+}
+
+.navbar {
+	/* background-color: darkturquoise; */
+	padding-top: 90px; 
+	padding-left: 0px;
+	text-transform: 	capitalize;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+
+.navbar li {
+	list-style-type: none;
+	text-decoration-style: none;
+	text-decoration: none;  
+	display: inline-block;
+	text-transform: inherit;
+}
+
+.navbar a {
+	text-transform: inherit;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	text-decoration-style: none;
+	font-size: 75%;
+}
+
+.navbar a:hover {
+	color: #fc5bb4;
+	display: inline-block;
+	text-transform: inherit;
+}
+
+.navbar p {
+	text-transform: uppercase;
+}
+
 body {
-	background-color: powderblue;
+	background-color: darkturquoise;
 }
 
 footer {
@@ -8,8 +94,8 @@ footer {
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
-	background-color: #efefef
-	text-align:left;
+	background-color: #fc5bb4;
+	text-align: left;
 	size: 12px;
-	
+	font-weight: bold;
 }
