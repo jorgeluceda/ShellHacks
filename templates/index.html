@@ -1,9 +1,11 @@
 {% include 'header.html' %}
 
 	<body>
-		{% for name in data.categories %}
-		<br> {{ name }} </br>
-		{% endfor %}
+		<ul>
+			{% for name in data.categories %}
+				<li> {{ name }} </li>
+			{% endfor %}
+		</ul>
 	</body>
 
 {% include 'footer.html' %}
