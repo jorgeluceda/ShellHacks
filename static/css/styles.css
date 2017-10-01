@@ -1,4 +1,8 @@
+ @font-face { 
+	 font-family: Helvetica; src: url('../helvetica.otf'); } 
+
 .top-menu {
+	font-family: Helvetica, sans-serif;
    overflow: hidden;
    background-color: #fc5bb4;
    position: fixed;
@@ -11,6 +15,7 @@
 }
 
 .top-menu li {
+	font-family: Helvetica, sans-serif;
    list-style-type: none;
    text-decoration: none;
 	float: left;
@@ -35,6 +40,7 @@
 }
 
 .cart {
+	font-family: Helvetica, sans-serif;
 	font-weight: bold;
    float: right;
    display: inline-block;
@@ -62,6 +68,7 @@
 }
 
 .navbar {
+	font-family: Helvetica, sans-serif;
 	/* background-color: darkturquoise; */
 	padding-top: 120px; 
 	padding-left: 10px;
@@ -71,9 +78,10 @@
 }
 
 .navbar a {
+	font-family: Helvetica, sans-serif;
 	text-transform: inherit;
-	color: #000000;
-	font-weight: bold;
+	color: black;
+	font-weight: bold; 
 	text-decoration: none;
 	text-decoration-style: none;
 	font-size: 85%;
@@ -88,14 +96,22 @@
 }
 
 .navbar p {
+	font-family: Helvetica, sans-serif;
+
 	text-transform: uppercase;
+	line-height: 0.75;
 }
 
 body {
+	font-family: Helvetica, sans-serif;
+
 	background-color: darkturquoise;
+	background-image: url("../img/shell-icon-bg.svg");
 }
 
 footer {
+	font-family: Helvetica, sans-serif;
+
 	position: absolute;
 	right: 0;
 	bottom: 0;
