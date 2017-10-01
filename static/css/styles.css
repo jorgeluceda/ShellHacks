@@ -2,6 +2,7 @@
 	 font-family: Helvetica; src: url('../helvetica.otf'); } 
 
 .top-menu {
+	clear: left;
 	font-family: Helvetica, sans-serif;
    overflow: hidden;
    background-color: #fc5bb4;
@@ -11,7 +12,9 @@
    right: 0;
 	width: 100%;
 	min-height: 80px;
-   overflow: hidden;
+
+	background-image: url("../img/shell-icon-bg.svg");
+	background-size: 70px 70px;
 }
 
 .top-menu li {
@@ -22,6 +25,8 @@
 	padding-top: 10px;
 	padding-right: 10px;
 	text-align: center; 
+	color: black;
+	font-weight: bold;
 	
 }
 
@@ -44,11 +49,11 @@
 	font-weight: bold;
    float: right;
    display: inline-block;
-   color: #f2f2f2;
+	color: black;
    text-align: center;
    padding: 20px 15px;
    text-decoration: none;
-	font-size: 17px;
+	font-size: 25px;
 	text-transform: uppercase;
 	/* font-family: Helvetica; */
 
@@ -68,12 +73,14 @@
 }
 
 .navbar {
+	float: left;
 	font-family: Helvetica, sans-serif;
 	/* background-color: darkturquoise; */
 	padding-top: 120px; 
 	padding-left: 10px;
-	text-transform: 	capitalize;
+	text-transform: capitalize;
 	text-decoration: none;
+	max-width: 160px;
 	text-decoration-style: none;
 }
 
@@ -85,7 +92,6 @@
 	text-decoration: none;
 	text-decoration-style: none;
 	font-size: 85%;
-
 }
 
 
@@ -100,6 +106,7 @@
 
 	text-transform: uppercase;
 	line-height: 0.75;
+	/* color: #fc5bb4; */
 }
 
 body {
@@ -107,12 +114,13 @@ body {
 
 	background-color: darkturquoise;
 	background-image: url("../img/shell-icon-bg.svg");
+	background-size: 50px 50px;
 }
 
 footer {
+	padding: 1em;
 	font-family: Helvetica, sans-serif;
-
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -121,4 +129,25 @@ footer {
 	text-align: left;
 	size: 12px;
 	font-weight: bold;
+
+	/* background-color: darkturquoise; */
+	background-image: url("../img/shell-icon-bg.svg");
+	background-size: 30px 30px;
+}
+
+.rowcategory {
+	 clear: top;
+    margin-left: 170px;
+	 padding-top: 120px;
+	 padding-left: 20px; 
+	 overflow: hidden;
+	 font-size: 140%;
+	 font-weight: bold;
+	 text-transform: uppercase;
+
+	 color: black;
+}
+
+.rowcategory a:link {
+	text-decoration: none;
 }
